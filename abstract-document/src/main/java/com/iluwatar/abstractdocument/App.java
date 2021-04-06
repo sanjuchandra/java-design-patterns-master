@@ -24,6 +24,7 @@
 package com.iluwatar.abstractdocument;
 
 import com.iluwatar.abstractdocument.domain.Car;
+import com.iluwatar.abstractdocument.domain.PrintintName;
 import com.iluwatar.abstractdocument.domain.enums.Property;
 import java.util.List;
 import java.util.Map;
@@ -74,5 +75,8 @@ public class App {
         p.getModel().orElse(null),
         p.getPrice().orElse(null))
     );
+
+    PrintintName printintName = new PrintintName("Sanju");
+
   }
 }
