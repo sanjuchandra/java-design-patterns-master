@@ -79,6 +79,7 @@ public class App {
     PrintintName printintName = new PrintintName("Sanju");
     PrintintName printintName1 = new PrintintName("Anurag");
     PrintintName printintName2 = new PrintintName("Gayatri");
+    PrintintName printintName3 = new PrintintName("Saheb Lal");
 
   }
 }
